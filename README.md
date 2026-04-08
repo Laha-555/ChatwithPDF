@@ -1,6 +1,12 @@
 📄 Chat With Your PDF (RAG App)
 
+
+
 An AI-powered application that allows users to upload a PDF and interact with it using natural language. Built using Streamlit, LangChain, ChromaDB, and Google Gemini.
+
+
+
+
 
 🚀 Features
 📂 Upload any PDF file
@@ -9,6 +15,11 @@ An AI-powered application that allows users to upload a PDF and interact with it
 ⚡ Fast semantic search using vector database (Chroma)
 🤖 Powered by Google Gemini LLM
 🧠 How It Works (RAG Pipeline)
+
+
+
+
+
 
 This project implements a Retrieval-Augmented Generation (RAG) pipeline:
 
@@ -26,41 +37,71 @@ Context Retrieval
 Most relevant chunks are retrieved
 LLM Response
 Context + Query → passed to Gemini model for final answer
+
+
+
+
+
+
 🏗️ Tech Stack
+
+
 Frontend: Streamlit
 LLM: Google Gemini (gemini-2.5-flash)
 Embeddings: gemini-embedding-001
 Framework: LangChain
 Vector DB: ChromaDB
 Language: Python
-📦 Installation
-1️⃣ Clone the repository
-git clone https://github.com/your-username/chat-with-pdf.git
-cd chat-with-pdf
-2️⃣ Create virtual environment
-python -m venv venv
-source venv/bin/activate   # (Linux/Mac)
-venv\Scripts\activate      # (Windows)
+
+
+
+
+
 3️⃣ Install dependencies
+
+
+
 pip install -r requirements.txt
+
+
+
+
 🔑 Environment Variables
+
 
 Create a .env file and add your API key:
 
+
 GOOGLE_API_KEY=your_api_key_here
+
+
+
 ▶️ Run the App
 streamlit run app.py
+
+
+
+
+
+
 📸 Demo Workflow
 Upload a PDF
 Ask a question
 Get an AI-generated answer based on document context
+
+
+
+
+
 ⚠️ Error Handling
 Displays error if no readable text is found in PDF
 Handles empty chunks safely
+
+
+
 📁 Project Structure
-chat-with-pdf/
-│── app.py
-│── requirements.txt
-│── .env
-│── README.md
-💡 Use Cases
+
+
+
+
+
