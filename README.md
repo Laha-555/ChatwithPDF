@@ -2,6 +2,8 @@
 
 
 
+
+
 An AI-powered application that allows users to upload a PDF and interact with it using natural language. Built using Streamlit, LangChain, ChromaDB, and Google Gemini.
 
 
@@ -98,8 +100,6 @@ Displays error if no readable text is found in PDF
 Handles empty chunks safely
 
 
-
-📁 Project Structure
 
 
 
